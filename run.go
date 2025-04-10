@@ -1,4 +1,4 @@
-package pty
+package gopty
 
 import (
 	"os/exec"

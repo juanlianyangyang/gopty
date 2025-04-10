@@ -1,7 +1,7 @@
 //go:build darwin || dragonfly || freebsd || netbsd || openbsd
 // +build darwin dragonfly freebsd netbsd openbsd
 
-package pty
+package gopty
 
 // from <sys/ioccom.h>
 const (

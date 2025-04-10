@@ -1,13 +1,13 @@
 //go:build aix
 // +build aix
 
-package pty
+package gopty
 
 const (
 	TIOCGWINSZ = 0
 	TIOCSWINSZ = 0
 )
 
-func ioctlInner(fd, cmd, ptr uintptr) error {
+func ioctl(fd, cmd, ptr uintptr) error {
 	return ErrUnsupported
 }

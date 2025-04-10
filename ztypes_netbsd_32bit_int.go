@@ -2,7 +2,7 @@
 // +build 386 amd64 arm arm64
 // +build netbsd
 
-package pty
+package gopty
 
 type ptmget struct {
 	Cfd int32

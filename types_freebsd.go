@@ -1,7 +1,7 @@
 //go:build ignore
 // +build ignore
 
-package pty
+package gopty
 
 /*
 #include <sys/param.h>

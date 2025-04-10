@@ -4,7 +4,7 @@
 // Created by cgo -godefs - DO NOT EDIT
 // cgo -godefs types.go
 
-package pty
+package gopty
 
 type (
 	_C_int  int32
